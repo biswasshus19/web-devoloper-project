@@ -1,0 +1,41 @@
+/* common shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* This is for those color which use most */
+.text-primary{
+    color: #FD6E0A;
+}
+/* This is for button color change */
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+/* navigation related css */
+nav{
+    display: flex;
+    align-items: center; /*this is for set the contain in middle. vartically in one line*/
+    justify-content: space-between; /* this is space in center */
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
