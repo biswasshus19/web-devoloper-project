@@ -1,13 +1,15 @@
 /* common shared style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* This is for those color which use most */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
+
 /* This is for button color change */
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     color: white;
@@ -16,26 +18,120 @@ body{
     font-weight: 700;
     padding: 18px 35px;
 }
+
 /* navigation related css */
-nav{
+nav {
     display: flex;
-    align-items: center; /*this is for set the contain in middle. vartically in one line*/
-    justify-content: space-between; /* this is space in center */
+    align-items: center;
+    /*this is for set the contain in middle. vartically in one line*/
+    justify-content: space-between;
+    /* this is space in center */
+    margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav >ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.bannar {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bannar-contain {
+    max-width: 500px;
+}
+
+.bannar .profile-pic {
+    width: 500px;
+}
+
+.bannar-getting {
+    font-size: 45px;
+    color: #474747;
+    margin: 0;
+}
+
+.bbannar-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.bannar-discription {
+    margin-bottom: 20px;
+}
+
+/* main section style */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* main section ar div style  */
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+
+/* about section style  */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.section-about {
+    color: #757575;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    /* line-height: 30px; */
+    /* 166.667% */
+
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    /* font-weight: 400;
+    line-height: 30px;
+     */
+}
+
+#what-i-do-describtion{
+    padding: 30px 150px;
+}
+    
